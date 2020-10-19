@@ -27,7 +27,7 @@ public class HttpServiceTest {
         Vehicle[] vehicles = jsonToObjectConvertor.readValue(jsonResultInString, Vehicle[].class);
         assertThat(vehicles.length).isEqualTo(1);
         assertThat(vehicles[0].getVehicleId()).isEqualTo(101L);
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/getVehicleInformation", String.class)).contains("");
+
     }
 
 }
