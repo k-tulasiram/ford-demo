@@ -26,7 +26,7 @@ public class VehicleTable implements Serializable {
     private String mpg;
     private String exterior;
     private String interior;
-    private Double msrp;
-    private Double savings;
-    private Double finalprice;
+    private String msrp;
+    private String savings;
+    private String finalprice;
 }

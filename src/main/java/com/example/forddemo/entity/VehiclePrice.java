@@ -8,40 +8,42 @@ import java.io.Serializable;
 
 @Data
 public class VehiclePrice implements Serializable {
-    private Double msrp;
-    private Double savings;
-    private Double finalprice;
+    private String msrp;
+    private String savings;
+    private String finalprice;
 
     public VehiclePrice() {
 
     }
-    public VehiclePrice(Double msrp, Double savings, Double finalprice) {
+
+    public VehiclePrice(String msrp, String savings, String finalprice) {
         this.msrp = msrp;
         this.savings = savings;
         this.finalprice = finalprice;
     }
 
-    public Double getMsrp() {
+
+    public String getMsrp() {
         return msrp;
     }
 
-    public void setMsrp(Double msrp) {
+    public void setMsrp(String msrp) {
         this.msrp = msrp;
     }
 
-    public Double getSavings() {
+    public String getSavings() {
         return savings;
     }
 
-    public void setSavings(Double savings) {
+    public void setSavings(String savings) {
         this.savings = savings;
     }
 
-    public Double getFinalprice() {
+    public String getFinalprice() {
         return finalprice;
     }
 
-    public void setFinalprice(Double finalprice) {
+    public void setFinalprice(String finalprice) {
         this.finalprice = finalprice;
     }
 }

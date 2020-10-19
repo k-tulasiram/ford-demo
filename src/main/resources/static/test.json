@@ -1,0 +1,68 @@
+[
+    {
+        "vehicleId": "103",
+        "vehicleDetails": {
+            "make": "Ford",
+            "model": "F-150",
+            "modelYear": "2020",
+            "bodyStyle": "4D SuperCrew",
+            "engine": "V6 PFDI",
+            "drivetype": "4WD",
+            "color": "Blue Jeans Metallic",
+            "mpg": "23",
+            "vehicleFeature": {
+                "exterior": [
+                    "Headlamps - Autolamp",
+                    "Locking Removable Tailgate",
+                    "Manual Fold Power Mirrors",
+                    "Headlamps - Auto High Beam"
+                ],
+                "interior": [
+                    "1Touch Up/Down Dr/Pass Win",
+                    "60/40 Fold-Up Rear Bench Seat",
+                    "Cruise Control",
+                    "Illuminated Entry"
+                ]
+            }
+        },
+        "vehiclePrice": {
+            "msrp": "$40,925.00",
+            "savings": "$4678.00",
+            "finalprice": "$36,247.00"
+        }
+    },
+
+{
+        "vehicleId": "104",
+        "vehicleDetails": {
+            "make": "Ford",
+            "model": "F-150",
+            "modelYear": "2020",
+            "bodyStyle": "4D SuperCrew",
+            "engine": "V6 PFDI",
+            "drivetype": "4WD",
+            "color": "Blue Jeans Metallic",
+            "mpg": "23",
+            "vehicleFeature": {
+                "exterior": [
+                    "Headlamps - Autolamp",
+                    "Locking Removable Tailgate",
+                    "Manual Fold Power Mirrors",
+                    "Headlamps - Auto High Beam"
+                ],
+                "interior": [
+                    "1Touch Up/Down Dr/Pass Win",
+                    "60/40 Fold-Up Rear Bench Seat",
+                    "Cruise Control",
+                    "Illuminated Entry"
+                ]
+            }
+        },
+        "vehiclePrice": {
+            "msrp": "$40,925.00",
+            "savings": "$4678.00",
+            "finalprice": "$36,247.00"
+        }
+    }
+
+]

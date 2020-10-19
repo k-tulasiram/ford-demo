@@ -25,7 +25,7 @@ public class HttpServiceTest {
     public void greetingShouldReturnDefaultMessage() throws Exception {
         String jsonResultInString = this.restTemplate.getForObject("http://localhost:" + port + "/getVehicleInformation", String.class);
         Vehicle[] vehicles = jsonToObjectConvertor.readValue(jsonResultInString, Vehicle[].class);
-        assertThat(vehicles.length).isEqualTo(1);
+        assertThat(vehicles.length).isEqualTo(0);
         assertThat(vehicles[0].getVehicleId()).isEqualTo(101L);
 
     }

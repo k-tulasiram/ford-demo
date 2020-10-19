@@ -19,8 +19,7 @@ public class VehicleFeature implements Serializable {
         this.interior = interior;
     }
 
-    public String[]
-    getExterior() {
+    public String[] getExterior() {
         return exterior;
     }
 
